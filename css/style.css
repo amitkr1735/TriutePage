@@ -1,0 +1,80 @@
+body {
+  margin: 25px;
+  padding: 25px;
+}
+/* Heading Part Start! */
+
+h1 {
+  color: #b73225;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+  transition: 0.3s;
+  border: 5px solid #b73225;
+}
+
+h1:hover {
+  color: white;
+  background-color: #b73225;
+}
+
+/* image container start */
+#container-one {
+  display: flex;
+}
+
+.flex-item-left {
+  flex: 30%;
+}
+
+#flex-item-right {
+  flex: 70%;
+}
+
+#img-div img {
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5%;
+}
+
+/* Para. => container one */
+.p-one {
+  color: #004e7c;
+  text-align: center;
+  font-size: 1.8em;
+}
+
+.p-two {
+  text-align: center;
+  color: #164a41;
+  font-size: 22px;
+}
+
+/* Fan Art's  */
+.container-two {
+  display: flex;
+}
+
+#same img {
+  width: 50%;
+  border: 2px solid black;
+  border-radius: 30%;
+}
+
+@media only screen and (max-width: 800px) {
+  /* main img */
+
+  #container-one {
+    display: block;
+  }
+
+  #title img {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+  }
+}
